@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "crud-api-nodejsExpress-mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "dungna7",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongodb-stitch": "0.0.25"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
